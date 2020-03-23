@@ -8,5 +8,7 @@ workspace 'SSStorageNodeDemo'
 project 'SSStorageNodeDemo'
 
 target 'SSStorageNodeDemo' do
+#    pod 'SSStorageNode', :git => 'git@github.com:kingundertree/SSStorageNode.git', :tag => '0.0.1'
+
     pod 'SSStorageNode', :path => '../../SSStorageNode'
 end
