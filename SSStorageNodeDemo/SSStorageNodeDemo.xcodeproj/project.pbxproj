@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172837132424ABA900227CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172837122424ABA900227CD5 /* AppDelegate.swift */; };
+		172837172424ABA900227CD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172837162424ABA900227CD5 /* ViewController.swift */; };
+		1728371A2424ABA900227CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172837182424ABA900227CD5 /* Main.storyboard */; };
+		1728371C2424ABA900227CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1728371B2424ABA900227CD5 /* Assets.xcassets */; };
+		1728371F2424ABA900227CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1728371D2424ABA900227CD5 /* LaunchScreen.storyboard */; };
+		CACC28C2534EB4C652795941 /* Pods_SSStorageNodeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C109D5F7DD749416D841F715 /* Pods_SSStorageNodeDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1728370F2424ABA900227CD5 /* SSStorageNodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSStorageNodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172837122424ABA900227CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172837162424ABA900227CD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172837192424ABA900227CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1728371B2424ABA900227CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1728371E2424ABA900227CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		172837202424ABA900227CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1766B1B12428641C0088B3A6 /* SSStorageNodeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SSStorageNodeDemo.entitlements; sourceTree = "<group>"; };
+		509CF3DBA93B3CCD1AE36FB4 /* Pods-SSStorageNodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSStorageNodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSStorageNodeDemo/Pods-SSStorageNodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B5AC03BD674275C999AC3A68 /* Pods-SSStorageNodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSStorageNodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSStorageNodeDemo/Pods-SSStorageNodeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C109D5F7DD749416D841F715 /* Pods_SSStorageNodeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSStorageNodeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1728370C2424ABA900227CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACC28C2534EB4C652795941 /* Pods_SSStorageNodeDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172837062424ABA900227CD5 = {
+			isa = PBXGroup;
+			children = (
+				172837112424ABA900227CD5 /* SSStorageNodeDemo */,
+				172837102424ABA900227CD5 /* Products */,
+				84B5DBED423BDE680E5B44F4 /* Pods */,
+				279CD8B8707224A1EE0CD716 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		172837102424ABA900227CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1728370F2424ABA900227CD5 /* SSStorageNodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172837112424ABA900227CD5 /* SSStorageNodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1766B1B12428641C0088B3A6 /* SSStorageNodeDemo.entitlements */,
+				172837122424ABA900227CD5 /* AppDelegate.swift */,
+				172837162424ABA900227CD5 /* ViewController.swift */,
+				172837182424ABA900227CD5 /* Main.storyboard */,
+				1728371B2424ABA900227CD5 /* Assets.xcassets */,
+				1728371D2424ABA900227CD5 /* LaunchScreen.storyboard */,
+				172837202424ABA900227CD5 /* Info.plist */,
+			);
+			path = SSStorageNodeDemo;
+			sourceTree = "<group>";
+		};
+		279CD8B8707224A1EE0CD716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C109D5F7DD749416D841F715 /* Pods_SSStorageNodeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B5DBED423BDE680E5B44F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				509CF3DBA93B3CCD1AE36FB4 /* Pods-SSStorageNodeDemo.debug.xcconfig */,
+				B5AC03BD674275C999AC3A68 /* Pods-SSStorageNodeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1728370E2424ABA900227CD5 /* SSStorageNodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172837232424ABA900227CD5 /* Build configuration list for PBXNativeTarget "SSStorageNodeDemo" */;
+			buildPhases = (
+				2535577370E03CB9942A8DF4 /* [CP] Check Pods Manifest.lock */,
+				1728370B2424ABA900227CD5 /* Sources */,
+				1728370C2424ABA900227CD5 /* Frameworks */,
+				1728370D2424ABA900227CD5 /* Resources */,
+				277AA74E6BE4FD066CD872E5 /* [CP] Embed Pods Frameworks */,
+				A7EF6EC5AB4DC3AD8F411638 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSStorageNodeDemo;
+			productName = SSStorageNodeDemo;
+			productReference = 1728370F2424ABA900227CD5 /* SSStorageNodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172837072424ABA900227CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = FF;
+				TargetAttributes = {
+					1728370E2424ABA900227CD5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1728370A2424ABA900227CD5 /* Build configuration list for PBXProject "SSStorageNodeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172837062424ABA900227CD5;
+			productRefGroup = 172837102424ABA900227CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1728370E2424ABA900227CD5 /* SSStorageNodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1728370D2424ABA900227CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1728371F2424ABA900227CD5 /* LaunchScreen.storyboard in Resources */,
+				1728371C2424ABA900227CD5 /* Assets.xcassets in Resources */,
+				1728371A2424ABA900227CD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2535577370E03CB9942A8DF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSStorageNodeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		277AA74E6BE4FD066CD872E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSStorageNodeDemo/Pods-SSStorageNodeDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SSStorageNode/SSStorageNode.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSStorageNode.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSStorageNodeDemo/Pods-SSStorageNodeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7EF6EC5AB4DC3AD8F411638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSStorageNodeDemo/Pods-SSStorageNodeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1728370B2424ABA900227CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172837172424ABA900227CD5 /* ViewController.swift in Sources */,
+				172837132424ABA900227CD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		172837182424ABA900227CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172837192424ABA900227CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1728371D2424ABA900227CD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1728371E2424ABA900227CD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172837212424ABA900227CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172837222424ABA900227CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172837242424ABA900227CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509CF3DBA93B3CCD1AE36FB4 /* Pods-SSStorageNodeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SSStorageNodeDemo/SSStorageNodeDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA96Z6TJG6;
+				INFOPLIST_FILE = SSStorageNodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.SSStorageNodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		172837252424ABA900227CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AC03BD674275C999AC3A68 /* Pods-SSStorageNodeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SSStorageNodeDemo/SSStorageNodeDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA96Z6TJG6;
+				INFOPLIST_FILE = SSStorageNodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.SSStorageNodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1728370A2424ABA900227CD5 /* Build configuration list for PBXProject "SSStorageNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172837212424ABA900227CD5 /* Debug */,
+				172837222424ABA900227CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172837232424ABA900227CD5 /* Build configuration list for PBXNativeTarget "SSStorageNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172837242424ABA900227CD5 /* Debug */,
+				172837252424ABA900227CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172837072424ABA900227CD5 /* Project object */;
+}

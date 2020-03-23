@@ -1,0 +1,42 @@
+{
+  "name": "SSStorageNode",
+  "version": "0.0.1",
+  "summary": "按照节点本地化存储，支持Codeable数据存储",
+  "description": "Hi, SSStorageNode!",
+  "homepage": "git@github.com:kingundertree/SSStorageNode.git",
+  "license": "MIT",
+  "authors": {
+    "Summer Solstice": "kingundertree@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "Sources/*.h",
+  "public_header_files": "Sources/*.h",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Core/*.{h,m,swift}",
+      "public_header_files": "Sources/Core/*.h"
+    },
+    {
+      "name": "FileStorage",
+      "source_files": "Sources/FileStorage/*.{h,m,swift}",
+      "public_header_files": "Sources/FileStorage/*.h"
+    },
+    {
+      "name": "Keychain",
+      "source_files": "Sources/Keychain/*.{h,m,swift}",
+      "public_header_files": "Sources/Keychain/*.h"
+    },
+    {
+      "name": "UserDefaults",
+      "source_files": "Sources/UserDefaults/*.{h,m,swift}",
+      "public_header_files": "Sources/UserDefaults/*.h"
+    }
+  ]
+}

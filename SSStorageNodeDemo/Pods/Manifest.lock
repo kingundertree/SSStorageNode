@@ -1,0 +1,24 @@
+PODS:
+  - SSStorageNode (0.0.1):
+    - SSStorageNode/Core (= 0.0.1)
+    - SSStorageNode/FileStorage (= 0.0.1)
+    - SSStorageNode/Keychain (= 0.0.1)
+    - SSStorageNode/UserDefaults (= 0.0.1)
+  - SSStorageNode/Core (0.0.1)
+  - SSStorageNode/FileStorage (0.0.1)
+  - SSStorageNode/Keychain (0.0.1)
+  - SSStorageNode/UserDefaults (0.0.1)
+
+DEPENDENCIES:
+  - SSStorageNode (from `../../SSStorageNode`)
+
+EXTERNAL SOURCES:
+  SSStorageNode:
+    :path: ../../SSStorageNode
+
+SPEC CHECKSUMS:
+  SSStorageNode: de4103fd81827952b425b2c77fd1c7c695dc3dc4
+
+PODFILE CHECKSUM: b7934124dda4832ba0f67d82885f0693b949a4f1
+
+COCOAPODS: 1.4.0
