@@ -52,6 +52,7 @@ public class SSDataBasedStorage: SSCodableItemStorage {
     }
 
     
+    // SSFileStorage
     public func setItem<T>(_ item: T?, forKey key: String) throws where T : Decodable, T : Encodable {
         let data: Data?
         if let value = item {
